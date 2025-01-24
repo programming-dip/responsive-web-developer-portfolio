@@ -470,6 +470,9 @@ footer{
   display: none;
 }
 
+
+
+
 @media screen and (max-width:576px)
 {
   html, body {
@@ -498,6 +501,7 @@ footer{
 
   nav .btn-primary {
     height: 4vh;
+    
   }
 
 
@@ -512,6 +516,8 @@ footer{
   margin-right: 7%;
   width: 40%;
   text-align: center;
+  display: block;
+  margin-bottom: 8%;
 }
 
 
@@ -521,7 +527,7 @@ footer{
 
  .banner-profile-pic{
     
-  width: 70%; 
+  width: 60%; 
 }
 
 
