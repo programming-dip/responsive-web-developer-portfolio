@@ -487,8 +487,9 @@ footer{
 
   nav {
     flex-direction: column;
+    justify-content: center;
    
-    margin-left: 2%;
+    /* margin-left: 2%; */
    
 }
 
