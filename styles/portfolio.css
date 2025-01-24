@@ -131,6 +131,7 @@ nav {
     margin-left: 10%;
     height: 100vh;
     width: 40%;
+    
    
   }
 
@@ -147,6 +148,7 @@ nav {
     font-weight: bold;
     font-size: 5.252em;
     margin-bottom: 5%;
+    
  }
 
 
@@ -237,6 +239,9 @@ nav {
   text-align: center;
   font-family: "Open Sans", serif;
   width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+ 
   /* width: 80%;
   padding: 0% 10%;
   position: relative;
@@ -247,6 +252,11 @@ nav {
  .about-table .table-header{
   font-size: 1.3em;
   font-weight: normal;
+
+
+  word-wrap: break-word; /* Ensures content wraps within the cell */
+  word-break: break-word; /* Handles long words that can't fit */
+  white-space: normal; /* Allows content to wrap to the next line */
  
   
  }
@@ -255,6 +265,11 @@ nav {
   font-size: 1.3em;
   font-weight: bold;
   text-align: center;
+
+
+  word-wrap: break-word; /* Ensures content wraps within the cell */
+  word-break: break-word; /* Handles long words that can't fit */
+  white-space: normal; /* Allows content to wrap to the next line */
  
  }
 
