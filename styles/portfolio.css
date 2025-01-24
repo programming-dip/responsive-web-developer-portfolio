@@ -241,11 +241,6 @@ nav {
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
- 
-  /* width: 80%;
-  padding: 0% 10%;
-  position: relative;
-  left: 6%; */
   
  }
 
@@ -275,20 +270,32 @@ nav {
 
 
  /* Skill Section */
+
+ .my-skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
+
  .my-skills .text{
   text-align: center;
-  padding: 0px 10% 15% 10%;
+  padding: 0px 10% 4% 10%;
  }
 
 
 
  .card{
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
   gap:24px;
   margin-bottom: 130px;
  }
 
  .card .card-container{
+  flex: 0 1 10%;
+  /* min-width: 5%; */
   background-color: white;
   padding: 80px;
   border-radius: 5px;
@@ -300,6 +307,7 @@ nav {
   font-size: 1.3em;
   font-weight: bold;
   color: #181818;
+  padding-top: 10%;
  }
 
 
@@ -307,8 +315,7 @@ nav {
   font-size: 1.04em;
   font-weight: normal;
   color:#757575;
-
- 
+  padding-top: 10%;
   
  }
 
