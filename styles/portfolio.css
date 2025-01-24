@@ -12,6 +12,7 @@
     font-family: "Open Sans", serif;
     width: 99.355vw;
     height: auto;
+    font-size: 16px;
     
 }
   
@@ -53,7 +54,7 @@
     background-color: #FD6E0A;
     font-family: "Open Sans", serif;
     font-weight: bold;
-    font-size: 1.3em; /* 20px */
+    font-size: 1.3rem; /* 20px */
     color: white;
     text-align: center;
     border-radius: 5px;
@@ -90,7 +91,7 @@ nav {
 
   .nav-title{
     font-weight: 800;
-    font-size: 3em;
+    font-size: 3rem;
   }
 
 
@@ -104,7 +105,7 @@ nav {
   nav li a{
     text-decoration: none;
     font-family: "Open Sans", serif;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 
   nav ul{
@@ -117,7 +118,7 @@ nav {
     width: 150%;
     height: 6vh;
     text-align: center;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
   }
 
@@ -138,14 +139,14 @@ nav {
  .banner-greetings{
     font-family: "Open Sans", serif;
     font-weight: 600;
-    font-size: 2.925em;
+    font-size: 2.925rem;
    
  }
 
  .banner-title {
     font-family: "Open Sans", serif;
     font-weight: bold;
-    font-size: 5.252em;
+    font-size: 5.252rem;
     margin-bottom: 5%;
     
  }
@@ -154,7 +155,7 @@ nav {
  .banner-description{
     font-family: "Open Sans", serif;
     font-weight: normal;
-    font-size: 1.17em;
+    font-size: 1.17rem;
     margin-bottom: 7%;
  }
 
@@ -203,7 +204,7 @@ nav {
 
  .section-title{
   font-family: "Open Sans", serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
@@ -211,7 +212,7 @@ nav {
 
  .section-description{
   font-family: "Open Sans", serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-bottom: 30px;
  }
@@ -244,7 +245,7 @@ nav {
  }
 
  .about-table .table-header{
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: normal;
 
 
@@ -256,7 +257,7 @@ nav {
  }
 
  .about-table .table-data{
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
 
@@ -303,7 +304,7 @@ nav {
  }
 
  .card-container h3{
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #181818;
   padding-top: 10%;
@@ -311,7 +312,7 @@ nav {
 
 
  .skill-description{
-  font-size: 1.04em;
+  font-size: 1.04rem;
   font-weight: normal;
   color:#757575;
   padding-top: 10%;
@@ -328,7 +329,7 @@ nav {
 }
 
  .resume-column-title{
-  font-size: 1.95em;
+  font-size: 1.95rem;
   font-weight: bold;
   margin-top: 80px;
   margin-bottom: 30px;
@@ -338,25 +339,25 @@ nav {
   width: 10%;
   height: 6vh;
   text-align: center;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .experience-title{
-  font-size: 1.625em;
+  font-size: 1.625rem;
   font-weight: bold;
   margin-bottom: 10px;
  }
 
  .experience-subtitle{
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #757575;
   margin-bottom: 20px;
  }
 
  .experience-description {
-  font-size: 1.04em;
+  font-size: 1.04rem;
   font-weight: normal;
   color: #757575;
   margin-bottom: 30px;
@@ -395,7 +396,7 @@ footer{
   width: 50%;
   height: 6vh;
   text-align: center;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -432,8 +433,8 @@ footer{
   
 }
 
-.footer-column input[type="text"], .footer-column input[type="email"]{
-  font-size: 1.04em;
+.footer-column input[type="text"], .footer-column input[type="remail"]{
+  font-size: 1.04rem;
   font-weight: normal;
   color: #757575;
   margin-bottom: 24px;
@@ -449,7 +450,7 @@ footer{
 
 
 .footer-column textarea{
-  font-size: 1.04em;
+  font-size: 1.04rem;
   font-weight: normal;
   color: #757575;
   margin-bottom: 24px;
@@ -461,5 +462,114 @@ footer{
   padding: 10px 15px;
   width: 270%;
   
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width:576px)
+{
+  html, body {
+    font-size: 14px;
+    
+}
+  .header{
+    background-position: top 5% left 2%, bottom  center;
+    background-size: 10%, 100%;
+ 
+  }
+
+  nav {
+    flex-direction: column;
+   
+    margin-left: 2%;
+   
+}
+
+
+  nav ul{
+    justify-content: space-between;
+    margin-top: 5%;
+   
+  }
+
+  nav .btn-primary {
+    height: 4vh;
+  }
+
+
+
+  .banner{ 
+    margin-left: 15%; 
+   
+  }
+
+
+ .banner .btn-primary{
+  margin-right: 7%;
+  width: 40%;
+  text-align: center;
+}
+
+
+.banner .contact-btn{
+  
+ }
+
+ .banner-profile-pic{
+    
+  width: 70%; 
+}
+
+
+/* main section */
+
+main{
+  padding:150px 4%;
+  align-items: center;
+ }
+
+
+ /* about styles */
+ .about{
+  padding: 7% 7%;
+ }
+
+ .about-table{
+  display: flex;
+  flex-direction: row;
+  
+  
+  border-collapse: separate;
+  
+ }
+.about-table .table-data{
+  font-size: 1rem;
+  font-weight: bold;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: normal; /* Ensures content wraps within the cell */
+  word-break: keep-all; /* Handles long words that can't fit */
+  white-space: normal; /* Allows content to wrap to the next line */
+ 
+ } 
+
+ .about-table .table-header{
+  font-size: 1.3rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  word-wrap: normal; /* Ensures content wraps within the cell */
+  word-break: keep-all; /* Handles long words that can't fit */
+  white-space: normal; /* Allows content to wrap to the next line */
+ 
+  
+ }
+
 }
 
