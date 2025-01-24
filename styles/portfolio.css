@@ -249,9 +249,9 @@ nav {
   font-weight: normal;
 
 
-  word-wrap: break-word; /* Ensures content wraps within the cell */
-  word-break: break-word; /* Handles long words that can't fit */
-  white-space: normal; /* Allows content to wrap to the next line */
+  word-wrap: break-word; 
+  word-break: break-word; 
+  white-space: normal;
  
   
  }
@@ -262,9 +262,9 @@ nav {
   text-align: center;
 
 
-  word-wrap: break-word; /* Ensures content wraps within the cell */
-  word-break: break-word; /* Handles long words that can't fit */
-  white-space: normal; /* Allows content to wrap to the next line */
+  word-wrap: break-word; 
+  word-break: break-word;
+  white-space: normal; 
  
  }
 
@@ -400,16 +400,13 @@ footer{
   font-weight: 500;
 }
 
-.footer-column p{
 
-  width: 750px;
-  
-}
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
   margin-right: 25.4%;
   margin-left: 15%;
 
@@ -418,12 +415,14 @@ footer{
 .footer-container .text-sec {
   
   text-align: left;
-   white-space: normal; /* Allow text to wrap to the next line */
-    word-wrap: break-word; /* Break long words if needed */
-    box-sizing: border-box; /* Include padding and border in width */
+  width: 100%;
 }
 .footer-column .social-logo img{
   padding-right: 20px;
+}
+
+.footer-container .section-description {
+  width: 25vw;
 }
 
 .footer-column{
@@ -433,7 +432,7 @@ footer{
   
 }
 
-.footer-column input[type="text"], .footer-column input[type="remail"]{
+.footer-column input[type="text"], .footer-column input[type="email"]{
   font-size: 1.04rem;
   font-weight: normal;
   color: #757575;
@@ -444,7 +443,9 @@ footer{
   border:none;
   display: block;
   padding: 10px 15px;
-  width: 270%;
+  width: 25vw;
+ 
+  /* width: 270%; */
   
 }
 
@@ -460,7 +461,8 @@ footer{
   border:none;
   display: block;
   padding: 10px 15px;
-  width: 270%;
+  width: 25vw;
+  /* width: 270%; */
   
 }
 
@@ -537,39 +539,65 @@ main{
  }
 
  .about-table{
-  display: flex;
-  flex-direction: row;
-  
-  
-  border-collapse: separate;
-  
- }
-.about-table .table-data{
-  font-size: 1rem;
-  font-weight: bold;
-  /* text-align: center; */
+
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  word-wrap: normal; /* Ensures content wraps within the cell */
-  word-break: keep-all; /* Handles long words that can't fit */
-  white-space: normal; /* Allows content to wrap to the next line */
+  justify-content: space-between;
+  width: 100%;
  
- } 
+  
+ }
 
  .about-table .table-header{
   font-size: 1.3rem;
   font-weight: normal;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 
-  word-wrap: normal; /* Ensures content wraps within the cell */
-  word-break: keep-all; /* Handles long words that can't fit */
-  white-space: normal; /* Allows content to wrap to the next line */
+  margin-right: 0;
  
   
  }
 
+.about-table .table-data{
+  font-size: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+ 
+  margin-left: 0;
+ 
+ 
+ } 
+
+ .card,.resume-container{
+  flex-direction: column;
+  padding: 7% 7%;
+ }
+
+ .download-cv .btn-primary {
+  width: 30%;
+  height: 4vh;
+  
 }
 
+
+/* Footer */
+.footer-container {
+  flex-direction: column;
+
+}
+
+.footer-container .section-description {
+  width: 70vw;
+}
+
+.footer-column input[type="text"], .footer-column input[type="email"] {
+  width: 70vw;
+}
+
+.footer-column textarea{
+ width: 70vw;
+}
+
+}
